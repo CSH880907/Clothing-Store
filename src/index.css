@@ -8,8 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Fashion-forward color palette */
+    --background: 0 0% 99%;
+    --foreground: 0 0% 8%;
+    
+    /* Brand colors */
+    --fashion-primary: 0 0% 8%;
+    --fashion-primary-light: 0 0% 15%;
+    --fashion-accent: 38 75% 85%;
+    --fashion-accent-dark: 38 45% 75%;
+    --fashion-gold: 43 96% 56%;
+    
+    /* Neutral palette */
+    --fashion-gray-50: 0 0% 98%;
+    --fashion-gray-100: 0 0% 96%;
+    --fashion-gray-200: 0 0% 90%;
+    --fashion-gray-300: 0 0% 83%;
+    --fashion-gray-400: 0 0% 64%;
+    --fashion-gray-500: 0 0% 45%;
+    --fashion-gray-600: 0 0% 32%;
+    --fashion-gray-700: 0 0% 25%;
+    --fashion-gray-800: 0 0% 15%;
+    --fashion-gray-900: 0 0% 8%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--fashion-gray-50)), hsl(var(--fashion-accent)));
+    --gradient-premium: linear-gradient(135deg, hsl(var(--fashion-primary)), hsl(var(--fashion-primary-light)));
+    --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(var(--fashion-primary) / 0.7) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 2px 15px -3px hsl(var(--fashion-gray-900) / 0.1);
+    --shadow-medium: 0 4px 25px -5px hsl(var(--fashion-gray-900) / 0.15);
+    --shadow-strong: 0 10px 40px -10px hsl(var(--fashion-gray-900) / 0.25);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --background: 0 0% 99%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
