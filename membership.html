@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Chic Finds Vault</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Chic Finds Vault</a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="catalog.html" class="nav-link">Catalog</a>
+                <a href="new-series.html" class="nav-link">New Series</a>
+                <a href="recommendations.html" class="nav-link">Recommendations</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="membership.html" class="nav-link active">Membership</a>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="search-input" id="search-input">
+                    <button class="search-btn">🔍</button>
+                </div>
+                <button class="icon-btn" id="wishlist-btn">❤️</button>
+                <button class="icon-btn" id="cart-btn">
+                    🛍️ <span class="cart-count" id="cart-count">0</span>
+                </button>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1>VIP Membership</h1>
+            <p>Join our exclusive community and unlock premium benefits</p>
+        </div>
+    </div>
+
+    <!-- Membership Plans -->
+    <section class="membership-section">
+        <div class="container">
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Basic</h3>
+                        <div class="plan-price">Free</div>
+                    </div>
+                    <ul class="plan-features">
+                        <li>Access to catalog</li>
+                        <li>Basic recommendations</li>
+                        <li>Standard shipping</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button class="plan-btn">Get Started</button>
+                </div>
+
+                <div class="plan-card featured">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <div class="plan-price">$19<span>/month</span></div>
+                    </div>
+                    <ul class="plan-features">
+                        <li>Everything in Basic</li>
+                        <li>Early access to new arrivals</li>
+                        <li>Personalized styling</li>
+                        <li>Free shipping</li>
+                        <li>10% off all purchases</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <button class="plan-btn primary">Start Premium</button>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>VIP</h3>
+                        <div class="plan-price">$39<span>/month</span></div>
+                    </div>
+                    <ul class="plan-features">
+                        <li>Everything in Premium</li>
+                        <li>Exclusive collections</li>
+                        <li>Personal stylist</li>
+                        <li>Express shipping</li>
+                        <li>20% off all purchases</li>
+                        <li>VIP events access</li>
+                        <li>Dedicated support</li>
+                    </ul>
+                    <button class="plan-btn">Go VIP</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Chic Finds Vault</h3>
+                <p>Discover your perfect style with our curated collection</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="catalog.html">Catalog</a>
+                <a href="new-series.html">New Series</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">Returns</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Chic Finds Vault. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

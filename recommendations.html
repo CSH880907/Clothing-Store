@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chic Finds Vault</title>
+    <title>Recommendations - Chic Finds Vault</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,10 +13,10 @@
             <a href="index.html" class="nav-brand">Chic Finds Vault</a>
             
             <div class="nav-menu" id="nav-menu">
-                <a href="index.html" class="nav-link active">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="catalog.html" class="nav-link">Catalog</a>
                 <a href="new-series.html" class="nav-link">New Series</a>
-                <a href="recommendations.html" class="nav-link">Recommendations</a>
+                <a href="recommendations.html" class="nav-link active">Recommendations</a>
                 <a href="about.html" class="nav-link">About</a>
                 <a href="membership.html" class="nav-link">Membership</a>
             </div>
@@ -36,21 +36,36 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Discover Your Perfect Style</h1>
-            <p class="hero-subtitle">Curated fashion finds that match your unique taste</p>
-            <a href="catalog.html" class="hero-btn">Shop Now</a>
-        </div>
-    </section>
-
-    <!-- Featured Products -->
-    <section class="featured-section">
+    <!-- Page Header -->
+    <div class="page-header">
         <div class="container">
-            <h2 class="section-title">Featured Products</h2>
-            <div class="products-grid" id="featured-products">
-                <!-- Products will be loaded here -->
+            <h1>Personalized Recommendations</h1>
+            <p>Curated picks just for you based on your style preferences</p>
+        </div>
+    </div>
+
+    <!-- Recommendations Sections -->
+    <section class="recommendations-section">
+        <div class="container">
+            <div class="recommendation-category">
+                <h2 class="section-title">Trending Now</h2>
+                <div class="products-grid" id="trending-products">
+                    <!-- Products will be loaded here -->
+                </div>
+            </div>
+
+            <div class="recommendation-category">
+                <h2 class="section-title">Perfect For You</h2>
+                <div class="products-grid" id="personalized-products">
+                    <!-- Products will be loaded here -->
+                </div>
+            </div>
+
+            <div class="recommendation-category">
+                <h2 class="section-title">Similar to Your Favorites</h2>
+                <div class="products-grid" id="similar-products">
+                    <!-- Products will be loaded here -->
+                </div>
             </div>
         </div>
     </section>
